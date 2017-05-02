@@ -123,12 +123,6 @@ a branch is not available to others unless you push the branch to your remote re
 
     git push origin <branch>
 
-![Down Arrow](images/downarrow.png)
-
-+++
-
-![Branches](images/what-is-a-merge.gif)
-
 ---
 
 ## <span style="color: #e60000">update & merge</span>
@@ -153,6 +147,12 @@ in both cases git tries to auto-merge changes. Unfortunately, this is not always
 before merging changes, you can also preview them by using
 
     git diff <source_branch> <target_branch>
+
+![Down Arrow](images/downarrow.png)
+
++++
+
+![Branches](images/what-is-a-merge.gif)
 
 ---
 
