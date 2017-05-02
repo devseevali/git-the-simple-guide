@@ -53,8 +53,6 @@ your local repository consists of three "trees" maintained by git. the first one
 
 +++
 
-## <span style="color: #e60000">workflow</span>
-
 ![Trees](images/trees.png)
 
 ---
@@ -87,8 +85,6 @@ Change master to whatever branch you want to push your changes to.
 
 +++
 
-## <span style="color: #e60000">pushing changes</span>
-
 If you have not cloned an existing repository and want to connect your repository to a remote server, you need to add it with
 
     git remote add origin <server>
@@ -105,15 +101,11 @@ Branches are used to develop features isolated from each other. The master branc
 
 +++
 
-## <span style="color: #e60000">...</span>
-
 ![Branches](images/branches.png)
 
 ![Down Arrow](images/downarrow.png)
 
 +++
-
-## <span style="color: #e60000">...</span>
 
 create a new branch named "feature_x" and switch to it using
 
