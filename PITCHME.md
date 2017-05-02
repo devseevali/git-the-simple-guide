@@ -1,13 +1,13 @@
 ---?image=images/basic-remote-workflow-wide.png
 <!-- .slide: data-autoslide="5000" -->
 
-# <span style="color: #000000">Welcome!</span>
+# <span style="color: #b30000">Welcome!</span>
 
 ### <span style="color: #000000">GIT - the simple guid</span>
 ---
-<!-- .slide: data-autoslide="10000" -->
+<!-- .slide: data-autoslide="7000" -->
 
-## setup
+## <span style="color: #b30000">setup</span
 
 ###### [Download git for Windows](http://msysgit.github.io)
 
@@ -23,7 +23,7 @@
 
 ---
 
-## create a new repository
+## <span style="color: #b30000">create a new repository</span>
 
 create a new directory, open it and perform a
 
@@ -35,7 +35,7 @@ to create a new git repository.
 
 ---
 
-## checkout a repository
+## <span style="color: #b30000">checkout a repository</span>
 
 create a working copy of a local repository by running the command
 
