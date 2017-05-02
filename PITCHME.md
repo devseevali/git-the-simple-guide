@@ -29,7 +29,7 @@ create a new directory, open it and perform a
 
 `git init`
 
-to create a new git repository. <!-- .element: class="fragment" -->
+to create a new git repository.
 
 ---
 
@@ -39,7 +39,7 @@ create a working copy of a local repository by running the command
 
 `git clone /path/to/repository` 
 
-when using a remote server, your command will be <!-- .element: class="fragment" -->
+when using a remote server, your command will be 
 
 `git clone username@host:/path/to/repository` 
 
