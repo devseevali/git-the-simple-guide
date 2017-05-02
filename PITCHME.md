@@ -105,11 +105,15 @@ Branches are used to develop features isolated from each other. The master branc
 
 +++
 
-## <span style="color: #e60000">branching</span>
+## <span style="color: #e60000">...</span>
 
 ![Branches](images/branches.png)
 
+![Down Arrow](images/downarrow.png)
+
 +++
+
+## <span style="color: #e60000">...</span>
 
 create a new branch named "feature_x" and switch to it using
 
