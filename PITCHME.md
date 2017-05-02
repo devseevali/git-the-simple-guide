@@ -27,11 +27,9 @@
 
 create a new directory, open it and perform a
 
-<span class="fragment" data-fragment-index="1" data-autoslide="2000"></span>
+    git init <!-- .element: class="fragment" -->
 
-    git init
-
-to create a new git repository. 
+to create a new git repository. <!-- .element: class="fragment" -->
 
 ---
 
