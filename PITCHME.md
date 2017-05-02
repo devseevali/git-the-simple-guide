@@ -6,15 +6,15 @@
 
 ## setup
 
-###### Download git for Windows
+###### [Download git for Windows](http://msysgit.github.io)
 
     http://msysgit.github.io
 
-###### Download git for OSX
+###### [Download git for OSX](http://git-scm.com/download/mac)
 
     http://git-scm.com/download/mac
 
-###### Download git for Linux
+###### [Download git for Linux](http://git-scm.com/book/en/Getting-Started-Installing-Git)
 
     http://git-scm.com/book/en/Getting-Started-Installing-Git
 
