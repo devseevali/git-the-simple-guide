@@ -1,7 +1,7 @@
 ---?image=images/basic-remote-workflow-wide-broad.png
 <!-- .slide: data-autoslide="5000" -->
 
-# <span style="color: #e60000">Welcome!</span>
+# <span style="color: #e60000">*Welcome!*</span>
 
 ### <span style="color: #000000">GIT - the simple guid</span>
 ---
