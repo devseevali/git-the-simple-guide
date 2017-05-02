@@ -1,10 +1,12 @@
----?image=images/basic-remote-workflow.png
-
+---?image=images/basic-remote-workflow-wide.png
+<!-- .slide: data-autoslide="5000" -->
+<span style="color:gray">
 # Welcome!
 
 ### GIT - the simple guid
-
+</span>
 ---
+<!-- .slide: data-autoslide="10000" -->
 
 ## setup
 
