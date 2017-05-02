@@ -1,13 +1,13 @@
 ---?image=images/basic-remote-workflow-wide.png
 <!-- .slide: data-autoslide="5000" -->
 
-# <span style="color: #b30000">Welcome!</span>
+# <span style="color: #e60000">Welcome!</span>
 
 ### <span style="color: #000000">GIT - the simple guid</span>
 ---
 <!-- .slide: data-autoslide="7000" -->
 
-## <span style="color: #b30000">setup</span
+## <span style="color: #e60000">setup</span>
 
 ###### [Download git for Windows](http://msysgit.github.io)
 
@@ -23,7 +23,7 @@
 
 ---
 
-## <span style="color: #b30000">create a new repository</span>
+## <span style="color: #e60000">create a new repository</span>
 
 create a new directory, open it and perform a
 
@@ -35,7 +35,7 @@ to create a new git repository.
 
 ---
 
-## <span style="color: #b30000">checkout a repository</span>
+## <span style="color: #e60000">checkout a repository</span>
 
 create a working copy of a local repository by running the command
 
@@ -47,7 +47,7 @@ when using a remote server, your command will be
 
 ---
 
-## workflow
+## <span style="color: #e60000">workflow</span>
 
 your local repository consists of three "trees" maintained by git. the first one is your ```Working Directory``` which holds the actual files. the second one is the ```Index``` which acts as a staging area and finally the ```HEAD``` which points to the last commit you've made. 
 
