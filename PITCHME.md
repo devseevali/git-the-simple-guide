@@ -123,6 +123,12 @@ a branch is not available to others unless you push the branch to your remote re
 
     git push origin <branch>
 
+![Down Arrow](images/downarrow.png)
+
++++
+
+![Branches](images/what-is-a-merge.gif)
+
 ---
 
 ## <span style="color: #e60000">update & merge</span>
