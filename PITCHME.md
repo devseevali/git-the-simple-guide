@@ -94,6 +94,10 @@ Now you are able to push your changes to the selected remote server
 
 Branches are used to develop features isolated from each other. The master branch is the "default" branch when you create a repository. Use other branches for development and merge them back to the master branch upon completion. 
 
+![Down Arrow](images/downarrow.png)
+
++++
+
 ![Branches](images/branches.png)
 
 +++
