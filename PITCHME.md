@@ -1,3 +1,8 @@
+# Welcome!
+
+### GIT the simple guid
+
+---
 
 ## setup
 
