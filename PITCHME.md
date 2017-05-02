@@ -1,4 +1,4 @@
----?image=images/basic-remote-workflow-wide.png
+---?image=images/basic-remote-workflow-wide-left.png
 <!-- .slide: data-autoslide="5000" -->
 
 # <span style="color: #e60000">Welcome!</span>
@@ -27,9 +27,9 @@
 
 create a new directory, open it and perform a
 
-`git init`
+    git init
 
-to create a new git repository. <!-- .element: class="fragment" -->
+to create a new git repository.
 
 ---
 
@@ -37,11 +37,11 @@ to create a new git repository. <!-- .element: class="fragment" -->
 
 create a working copy of a local repository by running the command
 
-`git clone /path/to/repository` 
+    git clone /path/to/repository 
 
-when using a remote server, your command will be <!-- .element: class="fragment" -->
+when using a remote server, your command will be 
 
-`git clone username@host:/path/to/repository` 
+    git clone username@host:/path/to/repository`
 
 ---
 
@@ -57,7 +57,7 @@ your local repository consists of three "trees" maintained by git. the first one
 
 ---
 
-## add & commit
+## <span style="color: #e60000">add & commit</span>
 
 You can propose changes (add it to the ```Index```) using
 
@@ -73,7 +73,7 @@ Now the file is committed to the ```HEAD```, but not in your remote repository y
 
 ---
 
-## pushing changes
+## <span style="color: #e60000">pushing changes</span>
 
 Your changes are now in the ```HEAD``` of your local working copy. To send those changes to your remote repository, execute
 
@@ -93,7 +93,7 @@ Now you are able to push your changes to the selected remote server
 
 ---
 
-## branching
+## <span style="color: #e60000">branching</span>
 
 Branches are used to develop features isolated from each other. The master branch is the "default" branch when you create a repository. Use other branches for development and merge them back to the master branch upon completion. 
 
@@ -102,6 +102,8 @@ Branches are used to develop features isolated from each other. The master branc
 +++
 
 ![Branches](images/branches.png)
+
+![Down Arrow](images/downarrow.png)
 
 +++
 
@@ -123,7 +125,7 @@ a branch is not available to others unless you push the branch to your remote re
 
 ---
 
-## update & merge
+## <span style="color: #e60000">update & merge</span>
 
 to update your local repository to the newest commit, execute
 
@@ -148,7 +150,7 @@ before merging changes, you can also preview them by using
 
 ---
 
-## tagging
+## <span style="color: #e60000">tagging</span>
 
 it's recommended to create tags for software releases. this is a known concept, which also exists in SVN. You can create a new tag named 1.0.0 by executing
 
@@ -158,7 +160,7 @@ the ```1b2e1d63ff``` stands for the first 10 characters of the commit id you wan
 
 ---
 
-## log
+## <span style="color: #e60000">log</span>
 
 in its simplest form, you can study repository history using.. `git log`
 You can add a lot of parameters to make the log look like what you want. To see only the commits of a certain author:
@@ -185,7 +187,7 @@ These are just a few of the possible parameters you can use. For more, see git l
 
 ---
 
-## replace local changes
+## <span style="color: #e60000">replace local changes</span>
 
 In case you did something wrong, which for sure never happens ;), you can replace local changes using the command
 
@@ -205,7 +207,7 @@ If you instead want to drop all your local changes and commits, fetch the latest
 
 ---
 
-## useful hints
+## <span style="color: #e60000">useful hints</span>
 
 built-in git GUI
 
@@ -225,7 +227,7 @@ use interactive adding
 
 ---
 
-## links & resources
+## <span style="color: #e60000">links & resources</span>
 
 ### graphical clients
 
@@ -258,4 +260,4 @@ use interactive adding
 
 ---?image=images/atlassian-getting-git-right.jpg
 
-# Thanks! ;)
+# <span style="color: #e60000">Thanks!<span> <span style="color: #000000">;)</span>
