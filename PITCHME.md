@@ -1,3 +1,5 @@
+---?image=images/basic-remote-workflow.png
+
 # Welcome!
 
 ### GIT - the simple guid
@@ -253,6 +255,6 @@ use interactive adding
 [Git User Mailing List](http://groups.google.com/group/git-users/)
 [#git on irc.freenode.net](http://jk.gs/git/)
 
----
+---?image=images/atlassian-getting-git-right.jpg
 
 # Thanks! ;)
