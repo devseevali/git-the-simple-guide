@@ -1,5 +1,5 @@
 ---?image=images/basic-remote-workflow-wide-broad.png
-<!-- .slide: data-autoslide="5000" -->
+<!-- .slide: data-autoslide="10000" -->
 
 # <span style="color: #e60000">*Welcome!*</span>
 
