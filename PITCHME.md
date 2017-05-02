@@ -4,10 +4,6 @@
 
 ---
 
-TEST
-
----
-
 ## setup
 
 ###### [Download git for Windows](http://msysgit.github.io)
