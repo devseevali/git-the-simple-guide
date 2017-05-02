@@ -140,8 +140,6 @@ to merge another branch into your active branch (e.g. master), use
 
 +++
 
-## <span style="color: #e60000">update & merge</span>
-
 in both cases git tries to auto-merge changes. Unfortunately, this is not always possible and results in conflicts. You are responsible to merge those conflicts manually by editing the files shown by git. After changing, you need to mark them as merged with
 
     git add <filename>
@@ -177,8 +175,6 @@ To see a very compressed log where each commit is one line:
 
 +++
 
-## <span style="color: #e60000">log</span>
-
 Or maybe you want to see an ASCII art tree of all the branches, decorated with the names of tags and branches:
 
     git log --graph --oneline --decorate --all
@@ -202,8 +198,6 @@ this replaces the changes in your working tree with the last content in HEAD. Ch
 ![Down Arrow](images/downarrow.png)
 
 +++
-
-## <span style="color: #e60000">replace local changes</span>
 
 If you instead want to drop all your local changes and commits, fetch the latest history from the server and point your local master branch at it like this
 
@@ -247,8 +241,6 @@ use interactive adding
 
 +++
 
-## <span style="color: #e60000">links & resources</span>
-
 ### guides
 
 [Git Community Book](http://book.git-scm.com/)
@@ -261,8 +253,6 @@ use interactive adding
 
 +++
 
-## <span style="color: #e60000">links & resources</span>
-
 ### get help
 
 [Git User Mailing List](http://groups.google.com/group/git-users/)
@@ -270,4 +260,4 @@ use interactive adding
 
 ---?image=images/atlassian-getting-git-right.jpg
 
-# <span style="color: #e60000">Thanks!<span> ;)
+# <span style="color: #e60000">Thanks!<span> <span style="color: #000000">;)</span>
