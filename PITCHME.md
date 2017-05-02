@@ -53,11 +53,13 @@ your local repository consists of three "trees" maintained by git. the first one
 
 +++
 
+## <span style="color: #e60000">workflow</span>
+
 ![Trees](images/trees.png)
 
 ---
 
-## add & commit
+## <span style="color: #e60000">add & commit</span>
 
 You can propose changes (add it to the ```Index```) using
 
@@ -73,7 +75,7 @@ Now the file is committed to the ```HEAD```, but not in your remote repository y
 
 ---
 
-## pushing changes
+## <span style="color: #e60000">pushing changes</span>
 
 Your changes are now in the ```HEAD``` of your local working copy. To send those changes to your remote repository, execute
 
@@ -85,6 +87,8 @@ Change master to whatever branch you want to push your changes to.
 
 +++
 
+## <span style="color: #e60000">pushing changes</span>
+
 If you have not cloned an existing repository and want to connect your repository to a remote server, you need to add it with
 
     git remote add origin <server>
@@ -93,13 +97,15 @@ Now you are able to push your changes to the selected remote server
 
 ---
 
-## branching
+## <span style="color: #e60000">branching</span>
 
 Branches are used to develop features isolated from each other. The master branch is the "default" branch when you create a repository. Use other branches for development and merge them back to the master branch upon completion. 
 
 ![Down Arrow](images/downarrow.png)
 
 +++
+
+## <span style="color: #e60000">branching</span>
 
 ![Branches](images/branches.png)
 
@@ -123,7 +129,7 @@ a branch is not available to others unless you push the branch to your remote re
 
 ---
 
-## update & merge
+## <span style="color: #e60000">update & merge</span>
 
 to update your local repository to the newest commit, execute
 
@@ -138,6 +144,8 @@ to merge another branch into your active branch (e.g. master), use
 
 +++
 
+## <span style="color: #e60000">update & merge</span>
+
 in both cases git tries to auto-merge changes. Unfortunately, this is not always possible and results in conflicts. You are responsible to merge those conflicts manually by editing the files shown by git. After changing, you need to mark them as merged with
 
     git add <filename>
@@ -148,7 +156,7 @@ before merging changes, you can also preview them by using
 
 ---
 
-## tagging
+## <span style="color: #e60000">tagging</span>
 
 it's recommended to create tags for software releases. this is a known concept, which also exists in SVN. You can create a new tag named 1.0.0 by executing
 
@@ -158,7 +166,7 @@ the ```1b2e1d63ff``` stands for the first 10 characters of the commit id you wan
 
 ---
 
-## log
+## <span style="color: #e60000">log</span>
 
 in its simplest form, you can study repository history using.. `git log`
 You can add a lot of parameters to make the log look like what you want. To see only the commits of a certain author:
@@ -173,6 +181,8 @@ To see a very compressed log where each commit is one line:
 
 +++
 
+## <span style="color: #e60000">log</span>
+
 Or maybe you want to see an ASCII art tree of all the branches, decorated with the names of tags and branches:
 
     git log --graph --oneline --decorate --all
@@ -185,7 +195,7 @@ These are just a few of the possible parameters you can use. For more, see git l
 
 ---
 
-## replace local changes
+## <span style="color: #e60000">replace local changes</span>
 
 In case you did something wrong, which for sure never happens ;), you can replace local changes using the command
 
@@ -197,6 +207,8 @@ this replaces the changes in your working tree with the last content in HEAD. Ch
 
 +++
 
+## <span style="color: #e60000">replace local changes</span>
+
 If you instead want to drop all your local changes and commits, fetch the latest history from the server and point your local master branch at it like this
 
     git fetch origin
@@ -205,7 +217,7 @@ If you instead want to drop all your local changes and commits, fetch the latest
 
 ---
 
-## useful hints
+## <span style="color: #e60000">useful hints</span>
 
 built-in git GUI
 
@@ -225,7 +237,7 @@ use interactive adding
 
 ---
 
-## links & resources
+## <span style="color: #e60000">links & resources</span>
 
 ### graphical clients
 
@@ -239,6 +251,8 @@ use interactive adding
 
 +++
 
+## <span style="color: #e60000">links & resources</span>
+
 ### guides
 
 [Git Community Book](http://book.git-scm.com/)
@@ -251,6 +265,8 @@ use interactive adding
 
 +++
 
+## <span style="color: #e60000">links & resources</span>
+
 ### get help
 
 [Git User Mailing List](http://groups.google.com/group/git-users/)
@@ -258,4 +274,4 @@ use interactive adding
 
 ---?image=images/atlassian-getting-git-right.jpg
 
-# Thanks! ;)
+# <span style="color: #e60000">Thanks!<span> ;)
