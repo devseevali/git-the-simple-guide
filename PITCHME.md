@@ -46,6 +46,10 @@ when using a remote server, your command will be
 
 your local repository consists of three "trees" maintained by git. the first one is your ```Working Directory``` which holds the actual files. the second one is the ```Index``` which acts as a staging area and finally the ```HEAD``` which points to the last commit you've made. 
 
+![Down Arrow](images/downarrow.png)
+
++++
+
 ![Trees](images/trees.png)
 
 ---
