@@ -46,7 +46,7 @@ when using a remote server, your command will be
 
 your local repository consists of three "trees" maintained by git. the first one is your ```Working Directory``` which holds the actual files. the second one is the ```Index``` which acts as a staging area and finally the ```HEAD``` which points to the last commit you've made. 
 
-![Trees]( images/trees.png )
+![Trees](images/trees.png)
 
 ---
 
@@ -74,6 +74,10 @@ Your changes are now in the ```HEAD``` of your local working copy. To send those
 
 Change master to whatever branch you want to push your changes to.
 
+![Down Arrow](images/downarrow.png)
+
++++
+
 If you have not cloned an existing repository and want to connect your repository to a remote server, you need to add it with
 
     git remote add origin <server>
@@ -86,7 +90,7 @@ Now you are able to push your changes to the selected remote server
 
 Branches are used to develop features isolated from each other. The master branch is the "default" branch when you create a repository. Use other branches for development and merge them back to the master branch upon completion. 
 
-![Branches]( images/branches.png )
+![Branches](images/branches.png)
 
 +++
 
@@ -119,6 +123,10 @@ to merge another branch into your active branch (e.g. master), use
 
     git merge <branch>
 
+![Down Arrow](images/downarrow.png)
+
++++
+
 in both cases git tries to auto-merge changes. Unfortunately, this is not always possible and results in conflicts. You are responsible to merge those conflicts manually by editing the files shown by git. After changing, you need to mark them as merged with
 
     git add <filename>
@@ -150,6 +158,10 @@ To see a very compressed log where each commit is one line:
 
     git log --pretty=oneline
 
+![Down Arrow](images/downarrow.png)
+
++++
+
 Or maybe you want to see an ASCII art tree of all the branches, decorated with the names of tags and branches:
 
     git log --graph --oneline --decorate --all
@@ -169,6 +181,10 @@ In case you did something wrong, which for sure never happens ;), you can replac
     git checkout -- <filename>
 
 this replaces the changes in your working tree with the last content in HEAD. Changes already added to the index, as well as new files, will be kept.
+
+![Down Arrow](images/downarrow.png)
+
++++
 
 If you instead want to drop all your local changes and commits, fetch the latest history from the server and point your local master branch at it like this
 
@@ -208,6 +224,10 @@ use interactive adding
 [GitHub for Mac (OSX, free)](http://mac.github.com/)
 [GitBox (OSX, App Store)](https://itunes.apple.com/gb/app/gitbox/id403388357?mt=12)
 
+![Down Arrow](images/downarrow.png)
+
++++
+
 ### guides
 
 [Git Community Book](http://book.git-scm.com/)
@@ -215,6 +235,10 @@ use interactive adding
 [Think like a git](http://think-like-a-git.net/)
 [GitHub Help](http://help.github.com/)
 [A Visual Git Guide](http://marklodato.github.com/visual-git-guide/index-en.html)
+
+![Down Arrow](images/downarrow.png)
+
++++
 
 ### get help
 
