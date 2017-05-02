@@ -27,7 +27,7 @@
 
 create a new directory, open it and perform a
 
-`git init`
+    git init
 
 to create a new git repository.
 
@@ -37,11 +37,11 @@ to create a new git repository.
 
 create a working copy of a local repository by running the command
 
-`git clone /path/to/repository` 
+    git clone /path/to/repository 
 
 when using a remote server, your command will be 
 
-`git clone username@host:/path/to/repository` 
+    git clone username@host:/path/to/repository`
 
 ---
 
