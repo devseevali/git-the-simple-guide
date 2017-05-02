@@ -4,10 +4,6 @@
 
 ---
 
-1234567890
-
----
-
 ## setup
 
 ###### Download git for Windows
