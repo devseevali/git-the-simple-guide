@@ -1,9 +1,9 @@
 ---?image=images/basic-remote-workflow-wide.png
 <!-- .slide: data-autoslide="5000" -->
 
-# <span style="color:gray">Welcome!</span>
+# <span style="color: #000000">Welcome!</span>
 
-### <span style="color:gray">GIT - the simple guid</span>
+### <span style="color: #000000">GIT - the simple guid</span>
 ---
 <!-- .slide: data-autoslide="10000" -->
 
@@ -26,6 +26,8 @@
 ## create a new repository
 
 create a new directory, open it and perform a
+
+<span class="fragment" data-fragment-index="1" data-autoslide="2000"></span>
 
     git init
 
